@@ -1,3 +1,5 @@
+# EXAMPLE
+```
 /* EXAMPLE -> exports['skillchecks']:startAlphabetGame(gameTimeoutDuration, numKeys); */
 /* EXAMPLE -> exports['skillchecks']:startDirectionGame(gameTimeoutDuration, requiredCorrectChoices, minGridSize, maxGridSize); */
 /* EXAMPLE -> exports['skillchecks']:startFlipGame(gameTimeoutDuration, gridSize); */
@@ -6,9 +8,10 @@
 /* EXAMPLE -> exports['skillchecks']:startUntangleGame(gameTimeoutDuration, numPoints); */
 /* EXAMPLE -> exports['skillchecks']:startWordsGame(gameTimeoutDuration, requiredCorrectChoices); */
 /* EXAMPLE -> exports['skillchecks']:startFloodGame(gameTimeoutDuration, moveCountLeniency, gridSize); */
+```
+# EXAMPLE SCRIPT:
 
-EXAMPLE SCRIPT:
-
+```
 RegisterCommand('skillchecks:alphabet', function()
     exports['skillchecks']:startAlphabetGame(10000, 20, function(success)
         if success then
@@ -19,3 +22,4 @@ RegisterCommand('skillchecks:alphabet', function()
     end)
 end)
 
+```
